@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    background-image: url("favicon.ico");
+}
+h1{
+    background-color: beige;
+    display: inline-block;
+    margin: 250px 0 0 0;
+    color: aquamarine;
+    -webkit-text-stroke: 1px black;
+    font-weight: 700;
+    font-family: monospace;
+    padding: 60px 30px;
+    border-radius: 90%;
+    border: 5px dashed  rgb(3, 87, 90);
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    color: aquamarine;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: monospace;
+    padding: 60px 30px;
+    border-color: 1px solid rgb(11, 48, 80);
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    display: flex;
+    padding: 20px 0px;
+    margin: 25px 690px 10px 690px;
+    border-radius: 24px;
+
+}
