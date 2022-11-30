@@ -1,36 +1,200 @@
-body{
-    background-color: aquamarine;
+* {
+    font-family: 'Shadows Into Light' ;
     text-align: center;
-    background-image: url("favicon.ico");
+    border-radius: 18px;
+    font-weight: bolder;
 }
-h1{
-    background-color: beige;
-    display: inline-block;
-    margin: 250px 0 0 0;
-    color: aquamarine;
-    -webkit-text-stroke: 1px black;
-    font-weight: 700;
-    font-family: monospace;
-    padding: 60px 30px;
-    border-radius: 90%;
-    border: 5px dashed  rgb(3, 87, 90);
-    justify-content: center;
-    align-items: center;
-    
+div{
+    color: #281061;
+    background-color: #14104d;
+    z-index: +1;
+    margin-top: 0;
 }
-p{
-    color: aquamarine;
-    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
-    font-weight: 700;
-    font-family: monospace;
-    padding: 60px 30px;
-    border-color: 1px solid rgb(11, 48, 80);
-    justify-content: center;
-    align-items: center;
-    background-color: beige;
-    display: flex;
-    padding: 20px 0px;
-    margin: 25px 690px 10px 690px;
+div h1,div .search{
+    display: inline-flex;
+    width: 30%;
+    color: #3f0091;
     border-radius: 24px;
+    text-align: center;
+}
+#header{
+    display: inline-flex;
+    margin: 20px;
+    padding:  0px 20px;
+    width:30%;
+    margin-left: 0px;
+    color: #d4b4ff;
 
+    border-radius: 24px;
+}
+.search{
+    width: 40%;
+    flex: 0.3;
+}
+.elements{
+    margin-top: 100px;
+}
+div .search-btn{
+    display: inline-flex;
+    width:13%;
+    background-color: #d4b4ff;
+    border-radius: 24px;
+    color: #14104d;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.search-btn:hover{
+    background-color: #14104d;
+    border-radius: 24px;
+    color: #d4b4ff;
+}
+.navba {
+    padding: 2px;
+    color: #c0ae8a;
+    opacity: 100%;
+    z-index: -1;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    width: 90%;
+}
+
+div ul li {
+    list-style-type: none;
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+    transition: 0.1s;
+    width: 20%;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 28px;
+    margin: 10px;
+}
+
+
+
+a:link {
+    text-decoration: none;
+
+}
+
+a {
+    color: #ffffff;
+    background-color: rgba(253, 254, 255, 0.918);
+    margin: 20px 50px;
+    border-radius: 28px;
+    padding: 5px 20px;
+}
+
+a:hover {
+    color: #151b29;
+
+}
+
+#home:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+    
+
+}
+
+#store:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+#support:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+#cart:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+body {
+    background-image: url("kreepe.ico");
+    image-orientation: center;
+    background-color: #ffffff;
+    background-repeat: repeat;
+
+
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    border-radius: 18%;
+    margin-right: 20px;
+}
+
+.para {
+
+    text-align: center;
+    width: 360px;
+    padding: 20px;
+    border-radius: 30px;
+    display: inline-flex;
+    color: #151b29;
+    margin: 20px 20px;
+    padding: 60px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    font-size: 1rem;
+    text-align: justify;
+    background-color: rgba(255, 228, 196, 0.836);
+}
+
+.para:nth-of-type(2n){
+
+    text-align: center;
+    width: 360px;
+    padding: 20px;
+    border-radius: 30px;
+    display: inline-flex;
+    color: #151b29;
+    margin: 20px 20px;
+    padding: 60px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    font-size: 1rem;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.01);
+}
+
+.para:nth-of-type(2n+1){
+
+    text-align: center;
+    width: 360px;
+    padding: 20px;
+    border-radius: 30px;
+    display: inline-flex;
+    color: #151b29;
+    margin: 20px 20px;
+    padding: 60px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    font-size: 1rem;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+}
+.para:hover {
+
+    text-align: center;
+    width: 360px;
+    padding: 20px;
+    border-radius: 30px;
+    display: inline-flex;
+    color: #151b29;
+    margin: 20px 20px;
+    padding: 60px;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    font-size: 1rem;
+    text-align: justify;
+    background-color: #ffffff;
 }
