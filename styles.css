@@ -1,76 +1,55 @@
 * {
     font-family: 'Shadows Into Light' ;
-    text-align: center;
-    border-radius: 18px;
-    font-weight: bolder;
 }
-div{
-    color: #281061;
-    background-color: #14104d;
-    z-index: +1;
-    margin-top: 0;
-}
-div h1,div .search{
-    display: inline-flex;
-    width: 30%;
-    color: #3f0091;
-    border-radius: 24px;
-    text-align: center;
-}
-#header{
-    display: inline-flex;
-    margin: 20px;
-    padding:  0px 20px;
-    width:30%;
-    margin-left: 0px;
-    color: #d4b4ff;
 
-    border-radius: 24px;
-}
-.search{
-    width: 40%;
-    flex: 0.3;
-}
-.elements{
-    margin-top: 100px;
-}
-div .search-btn{
-    display: inline-flex;
-    width:13%;
-    background-color: #d4b4ff;
-    border-radius: 24px;
-    color: #14104d;
-    text-align: center;
-    justify-content: space-evenly;
-}
-.search-btn:hover{
-    background-color: #14104d;
-    border-radius: 24px;
-    color: #d4b4ff;
-}
-.navba {
+.navbar {
+
+    display: flex;
     padding: 2px;
-    color: #c0ae8a;
+    background-color: #c1121f;
+    color: #fdf0d5;
     opacity: 100%;
-    z-index: -1;
+    z-index: 0;
     border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px auto;
-    width: 90%;
+    background-color: #151b29;
 }
 
-div ul li {
-    list-style-type: none;
+.navbar h1 {
     display: inline-block;
-    flex-direction: row;
-    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+    font-size: 3.5rem;
+    border: 0px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.navbar h1:hover {
+    display: inline-block;
+    color: #fdf0d5;
+    margin: 0px;
+    padding: 0px 20px;
+    font-size: 3.6rem;
+    border: 0px;
+    border-radius: 30px;
     transition: 0.1s;
-    width: 20%;
-    text-decoration: none;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+    color: #c1121eb0;
+    text-align: center;
+    transition: 0.3s;
+    background: none;
+    color: #ffffff;
+    padding: 1em 2em;
     font-size: 1em;
     border-radius: 28px;
-    margin: 10px;
 }
 
 
@@ -81,8 +60,8 @@ a:link {
 }
 
 a {
-    color: #ffffff;
-    background-color: rgba(253, 254, 255, 0.918);
+    color: #151b29;
+    background-color: rgba(240, 248, 255, 0.918);
     margin: 20px 50px;
     border-radius: 28px;
     padding: 5px 20px;
@@ -94,31 +73,34 @@ a:hover {
 }
 
 #home:hover {
-    background-color: rgb(255, 255, 255);
-    color: #ffffff;
-    
+    background-color: aliceblue;
+    padding: 5px 20px;
+    color: #151b29;
 
 }
 
 #store:hover {
-    background-color: rgb(255, 255, 255);
-    color: #ffffff;
+    background-color: aliceblue;
+    padding: 5px 20px;
+    color: #151b29;
 }
 
 #support:hover {
-    background-color: rgb(255, 255, 255);
-    color: #ffffff;
+    background-color: aliceblue;
+    padding: 5px 20px;
+    color: #151b29;
 }
 
 #cart:hover {
-    background-color: rgb(255, 255, 255);
-    color: #ffffff;
+    background-color: aliceblue;
+    padding: 5px 20px;
+    color: #151b29;
 }
 
 body {
     background-image: url("kreepe.ico");
     image-orientation: center;
-    background-color: #ffffff;
+    background-color: #151b29;
     background-repeat: repeat;
 
 
